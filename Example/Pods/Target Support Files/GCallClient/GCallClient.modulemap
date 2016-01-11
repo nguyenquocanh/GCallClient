@@ -1,0 +1,6 @@
+framework module GCallClient {
+  umbrella header "GCallClient-umbrella.h"
+
+  export *
+  module * { export * }
+}

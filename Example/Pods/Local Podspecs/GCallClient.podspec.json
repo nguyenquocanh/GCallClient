@@ -1,0 +1,25 @@
+{
+  "name": "GCallClient",
+  "version": "0.1.0",
+  "summary": "A short description of GCallClient.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/GCallClient",
+  "license": "MIT",
+  "authors": {
+    "KasakiNguyen": "nguyenquocanh280791@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/GCallClient.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "GCallClient": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

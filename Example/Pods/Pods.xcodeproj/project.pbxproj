@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		003F16B01C40B4370012A085 /* GCallClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003F16AF1C40B4370012A085 /* GCallClient.swift */; };
+		21064B73B7DF087C64556DF66CE09C3E /* Pods-GCallClient_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDFBA82ED11773936CCC7011B037FF69 /* Pods-GCallClient_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5689CD300581A79E577BCA0D3B712CA2 /* GCallClient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5DF8231FA378B9077E74E14A6B63F31 /* GCallClient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68BEB8B42097E69B291A7E306EDBD841 /* GCallClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8DCCD01C586CE2FD2B3A5901B1B8DF /* GCallClient-dummy.m */; };
+		93B76075DAFE2DEDF23B0DE803BC14F5 /* GCallClient.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4450258822FC381FE7AE726C837636D6 /* GCallClient.bundle */; };
+		BF5894F52979E31C935F051763A08EF3 /* Pods-GCallClient_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66492318D27E37FAC947D0BA8AAC09D3 /* Pods-GCallClient_Tests-dummy.m */; };
+		D48C49AD9143A8B2D2E55E8DAD394272 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		F0E161312B9F611CC9AC49AA3A41A531 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24065AA13452F1B7631B991E78A3B9C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0C73AC13486F26B293733A7E03A1DC5;
+			remoteInfo = GCallClient;
+		};
+		D940CAF1FC387FBCB0B1D7024CCDCDAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00D3D85ED62F04F1D4E3DBF31D05A548;
+			remoteInfo = "GCallClient-GCallClient";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003F16AF1C40B4370012A085 /* GCallClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCallClient.swift; sourceTree = "<group>"; };
+		0BBB284E624BBE66D603FA04729A6580 /* Pods-GCallClient_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GCallClient_Tests-resources.sh"; sourceTree = "<group>"; };
+		0F1DD47289235CCB75B9539D3413614B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2303B6017EE565AC1CA3BCABC75A1F0F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		234F82E67E215C30FCB4CD5CFCABB5F5 /* GCallClient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCallClient-prefix.pch"; sourceTree = "<group>"; };
+		2861DBBCE54468E27310997990787BE9 /* GCallClient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GCallClient.modulemap; sourceTree = "<group>"; };
+		2FCA4BAD36EA1597ED9B51AF6CBF985D /* Pods_GCallClient_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GCallClient_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		334B67EE855377248643CA643905B3B2 /* Pods-GCallClient_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GCallClient_Tests.modulemap"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3EFD12C48C779DBFB42F181E8B90BBC8 /* Pods-GCallClient_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GCallClient_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4450258822FC381FE7AE726C837636D6 /* GCallClient.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCallClient.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		66492318D27E37FAC947D0BA8AAC09D3 /* Pods-GCallClient_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GCallClient_Tests-dummy.m"; sourceTree = "<group>"; };
+		6E2A01975197B46DB2385A7A368D1F13 /* Pods-GCallClient_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GCallClient_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		88BE075B72F4C7C5368A3CC31490DFC3 /* GCallClient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCallClient.xcconfig; sourceTree = "<group>"; };
+		A5DF8231FA378B9077E74E14A6B63F31 /* GCallClient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCallClient-umbrella.h"; sourceTree = "<group>"; };
+		B963FE35B0F6B9598878635EDE23EFA6 /* GCallClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GCallClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C62B2E37311D9AF968A5F3A43922A56E /* Pods-GCallClient_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GCallClient_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CDFBA82ED11773936CCC7011B037FF69 /* Pods-GCallClient_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GCallClient_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DF8DCCD01C586CE2FD2B3A5901B1B8DF /* GCallClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GCallClient-dummy.m"; sourceTree = "<group>"; };
+		E05A8CFB46D1B5CBF82B07ED81F572EA /* Pods-GCallClient_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GCallClient_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F56653EDD59B1518E6D0905A64DC3F4B /* Pods-GCallClient_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GCallClient_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C83A37CDC688B05AFF6D0E6E3EAF87C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48C49AD9143A8B2D2E55E8DAD394272 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54B4773BCA11EC8BE4DEBB0ABEFA3FE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0E161312B9F611CC9AC49AA3A41A531 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6813B2F40A8EDCEDC1B33067AD0DC183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36E730F4EFC1814AF7CF983CDB2F661A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				52EF5C065D31EAD1911FD699CA90491D /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		3A518545B6EDC3A5E7C2140F309B477C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2861DBBCE54468E27310997990787BE9 /* GCallClient.modulemap */,
+				88BE075B72F4C7C5368A3CC31490DFC3 /* GCallClient.xcconfig */,
+				DF8DCCD01C586CE2FD2B3A5901B1B8DF /* GCallClient-dummy.m */,
+				234F82E67E215C30FCB4CD5CFCABB5F5 /* GCallClient-prefix.pch */,
+				A5DF8231FA378B9077E74E14A6B63F31 /* GCallClient-umbrella.h */,
+				2303B6017EE565AC1CA3BCABC75A1F0F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GCallClient";
+			sourceTree = "<group>";
+		};
+		4C23F27ECA5D64CFE4C5D58A8BD3241B /* GCallClient */ = {
+			isa = PBXGroup;
+			children = (
+				36E730F4EFC1814AF7CF983CDB2F661A /* Pod */,
+				3A518545B6EDC3A5E7C2140F309B477C /* Support Files */,
+			);
+			name = GCallClient;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4E83861288FAA726F2857DF06AB0560F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EDA14DCFCC44DC10A2E467518FCF0F2 /* Pods-GCallClient_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		52EF5C065D31EAD1911FD699CA90491D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				003F16AF1C40B4370012A085 /* GCallClient.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5B3481A9BDBA527BD35FDFC55BC4E6A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4450258822FC381FE7AE726C837636D6 /* GCallClient.bundle */,
+				B963FE35B0F6B9598878635EDE23EFA6 /* GCallClient.framework */,
+				2FCA4BAD36EA1597ED9B51AF6CBF985D /* Pods_GCallClient_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E9C1726189171FE866B550DA33FB1D4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C23F27ECA5D64CFE4C5D58A8BD3241B /* GCallClient */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6EDA14DCFCC44DC10A2E467518FCF0F2 /* Pods-GCallClient_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0F1DD47289235CCB75B9539D3413614B /* Info.plist */,
+				334B67EE855377248643CA643905B3B2 /* Pods-GCallClient_Tests.modulemap */,
+				C62B2E37311D9AF968A5F3A43922A56E /* Pods-GCallClient_Tests-acknowledgements.markdown */,
+				F56653EDD59B1518E6D0905A64DC3F4B /* Pods-GCallClient_Tests-acknowledgements.plist */,
+				66492318D27E37FAC947D0BA8AAC09D3 /* Pods-GCallClient_Tests-dummy.m */,
+				3EFD12C48C779DBFB42F181E8B90BBC8 /* Pods-GCallClient_Tests-frameworks.sh */,
+				0BBB284E624BBE66D603FA04729A6580 /* Pods-GCallClient_Tests-resources.sh */,
+				CDFBA82ED11773936CCC7011B037FF69 /* Pods-GCallClient_Tests-umbrella.h */,
+				6E2A01975197B46DB2385A7A368D1F13 /* Pods-GCallClient_Tests.debug.xcconfig */,
+				E05A8CFB46D1B5CBF82B07ED81F572EA /* Pods-GCallClient_Tests.release.xcconfig */,
+			);
+			name = "Pods-GCallClient_Tests";
+			path = "Target Support Files/Pods-GCallClient_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				6E9C1726189171FE866B550DA33FB1D4 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5B3481A9BDBA527BD35FDFC55BC4E6A2 /* Products */,
+				4E83861288FAA726F2857DF06AB0560F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		68A2724CE1C2265EFC88F20484B08AD8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5689CD300581A79E577BCA0D3B712CA2 /* GCallClient-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF979BFD77687382AF92E0CB5AEFB6FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21064B73B7DF087C64556DF66CE09C3E /* Pods-GCallClient_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00D3D85ED62F04F1D4E3DBF31D05A548 /* GCallClient-GCallClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13AF5B277BB91D92F5FA91BFB16581F /* Build configuration list for PBXNativeTarget "GCallClient-GCallClient" */;
+			buildPhases = (
+				5F14853D3254B9867F9D938A754F4024 /* Sources */,
+				6813B2F40A8EDCEDC1B33067AD0DC183 /* Frameworks */,
+				B6F2D6D889C19D4F2F9D525AF0E63D54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GCallClient-GCallClient";
+			productName = "GCallClient-GCallClient";
+			productReference = 4450258822FC381FE7AE726C837636D6 /* GCallClient.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		6F59ADE78A8A0A5792BC737573714F37 /* Pods-GCallClient_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 091124E10D27CEE4F06C7A05A3DF2E65 /* Build configuration list for PBXNativeTarget "Pods-GCallClient_Tests" */;
+			buildPhases = (
+				7C6A44A2702D58E02C50AD12EBC03A8B /* Sources */,
+				1C83A37CDC688B05AFF6D0E6E3EAF87C /* Frameworks */,
+				FF979BFD77687382AF92E0CB5AEFB6FC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4281F1BE606FDEDC9B2F7D7F00A12C6 /* PBXTargetDependency */,
+			);
+			name = "Pods-GCallClient_Tests";
+			productName = "Pods-GCallClient_Tests";
+			productReference = 2FCA4BAD36EA1597ED9B51AF6CBF985D /* Pods_GCallClient_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0C73AC13486F26B293733A7E03A1DC5 /* GCallClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A51C487DBC0B4ABE7C3F280E561293A8 /* Build configuration list for PBXNativeTarget "GCallClient" */;
+			buildPhases = (
+				7E41B40760F64FE5FEFF32E7CB854ABE /* Sources */,
+				54B4773BCA11EC8BE4DEBB0ABEFA3FE8 /* Frameworks */,
+				60E111C425F8D49106A4C9711D2893DA /* Resources */,
+				68A2724CE1C2265EFC88F20484B08AD8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59670402A0B9E2D4C1E1EE4AE5E61DE7 /* PBXTargetDependency */,
+			);
+			name = GCallClient;
+			productName = GCallClient;
+			productReference = B963FE35B0F6B9598878635EDE23EFA6 /* GCallClient.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5B3481A9BDBA527BD35FDFC55BC4E6A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0C73AC13486F26B293733A7E03A1DC5 /* GCallClient */,
+				00D3D85ED62F04F1D4E3DBF31D05A548 /* GCallClient-GCallClient */,
+				6F59ADE78A8A0A5792BC737573714F37 /* Pods-GCallClient_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60E111C425F8D49106A4C9711D2893DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B76075DAFE2DEDF23B0DE803BC14F5 /* GCallClient.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6F2D6D889C19D4F2F9D525AF0E63D54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F14853D3254B9867F9D938A754F4024 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C6A44A2702D58E02C50AD12EBC03A8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5894F52979E31C935F051763A08EF3 /* Pods-GCallClient_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E41B40760F64FE5FEFF32E7CB854ABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003F16B01C40B4370012A085 /* GCallClient.swift in Sources */,
+				68BEB8B42097E69B291A7E306EDBD841 /* GCallClient-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59670402A0B9E2D4C1E1EE4AE5E61DE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GCallClient-GCallClient";
+			target = 00D3D85ED62F04F1D4E3DBF31D05A548 /* GCallClient-GCallClient */;
+			targetProxy = D940CAF1FC387FBCB0B1D7024CCDCDAB /* PBXContainerItemProxy */;
+		};
+		D4281F1BE606FDEDC9B2F7D7F00A12C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GCallClient;
+			target = E0C73AC13486F26B293733A7E03A1DC5 /* GCallClient */;
+			targetProxy = 24065AA13452F1B7631B991E78A3B9C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4270D7717C3B634C625BBF84A630BF90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E05A8CFB46D1B5CBF82B07ED81F572EA /* Pods-GCallClient_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GCallClient_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GCallClient_Tests/Pods-GCallClient_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_GCallClient_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		56B4497EE295E7807387EEA1D6D6993B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88BE075B72F4C7C5368A3CC31490DFC3 /* GCallClient.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = GCallClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7CC5112AB50FC791717C220E531CD75F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E2A01975197B46DB2385A7A368D1F13 /* Pods-GCallClient_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GCallClient_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GCallClient_Tests/Pods-GCallClient_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_GCallClient_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9D9CF1F9297C60C5DEDA6F8B3ED552F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88BE075B72F4C7C5368A3CC31490DFC3 /* GCallClient.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = GCallClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B8C6C6FA5642022029E133BA90547669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88BE075B72F4C7C5368A3CC31490DFC3 /* GCallClient.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GCallClient/GCallClient-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GCallClient/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GCallClient/GCallClient.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GCallClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E30D99E6639B0E0F818944389B58D1F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88BE075B72F4C7C5368A3CC31490DFC3 /* GCallClient.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GCallClient/GCallClient-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GCallClient/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GCallClient/GCallClient.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GCallClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		091124E10D27CEE4F06C7A05A3DF2E65 /* Build configuration list for PBXNativeTarget "Pods-GCallClient_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC5112AB50FC791717C220E531CD75F /* Debug */,
+				4270D7717C3B634C625BBF84A630BF90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A51C487DBC0B4ABE7C3F280E561293A8 /* Build configuration list for PBXNativeTarget "GCallClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E30D99E6639B0E0F818944389B58D1F9 /* Debug */,
+				B8C6C6FA5642022029E133BA90547669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F13AF5B277BB91D92F5FA91BFB16581F /* Build configuration list for PBXNativeTarget "GCallClient-GCallClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56B4497EE295E7807387EEA1D6D6993B /* Debug */,
+				9D9CF1F9297C60C5DEDA6F8B3ED552F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

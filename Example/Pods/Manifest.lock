@@ -1,0 +1,14 @@
+PODS:
+  - GCallClient (0.1.0)
+
+DEPENDENCIES:
+  - GCallClient (from `../`)
+
+EXTERNAL SOURCES:
+  GCallClient:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GCallClient: 05e4e7f73fc41e41c5b817fc5a7b154d47ea5ee0
+
+COCOAPODS: 0.39.0
